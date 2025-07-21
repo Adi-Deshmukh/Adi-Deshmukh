@@ -26,7 +26,7 @@
 
 ###
 
-<p align="left">I'm Aditya.<br><br>- 🔭 I’m a Student<br>- 📚 I'm a Data Enthusiast<br>- ⚡ I enjoy clening Nested and unclean data</p>
+<p align="left">I'm Aditya.<br><br>- 🔭 I’m a Student<br>- 📚 I'm a Data Enthusiast<br>- ⚡ I enjoy cleaning Nested and unclean data</p>
 
 ###
 
