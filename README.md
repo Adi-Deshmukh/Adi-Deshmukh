@@ -148,7 +148,7 @@ Jupyter      █████████▓░░░░░░░░░░░░ 
 <!--END_SECTION:waka-->
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Adi-Deshmukh&custom_title=🔥%20Aditya's%20Contribution%20Graph%20🔥&bg_color=0D1117&color=F85D7F&line=F8D866&point=FFFFFF&area_color=F85D7F30&title_color=F85D7F&area=true&hide_border=true&radius=16" alt="Aditya's GitHub Activity Graph"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Adi-Deshmukh&custom_title= %20My%20Contribution%20Graph%20&bg_color=0D1117&color=F85D7F&line=F8D866&point=FFFFFF&area_color=F85D7F30&title_color=F85D7F&area=true&hide_border=true&radius=16" alt="Aditya's GitHub Activity Graph"/>
 </p>
 
 ##  ***GitHub Trophies***
