@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/Adi-Deshmukh/Adi-Deshmukh/blob/main/assets/dynamic-header.gif?raw=true" alt="Dynamic Header Image based on time of day" width="100%"/>
+  <img src="https://github.com/Adi-Deshmukh/Adi-Deshmukh/blob/main/assets/dynamic-header.jpg?raw=true" alt="Dynamic Header Image based on time of day" width="100%"/>
 </p>
 
 <div align="center">
