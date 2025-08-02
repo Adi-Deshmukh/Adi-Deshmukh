@@ -1,0 +1,40 @@
+name: Update Dynamic Header Banner
+
+on:
+  # Runs every hour
+  schedule:
+    - cron: '0 * * * *'
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  update-banner:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Update header image based on time
+        run: |
+          # Set timezone to India Standard Time
+          export TZ="Asia/Kolkata"
+          
+          # Get the current hour in 24-hour format
+          current_hour=$(date +%H)
+          
+          echo "Current hour in IST is $current_hour"
+          
+          # Check if it's daytime (6 AM to 6 PM) or nighttime
+          if (( current_hour >= 6 && current_hour < 18 )); then
+            echo "It's daytime. Using day.jpg."
+            cp assets/day.jpg assets/dynamic-header.jpg
+          else
+            echo "It's nighttime. Using night.jpg."
+            cp assets/night.jpg assets/dynamic-header.jpg
+          fi
+
+      - name: Commit and push changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'CI: Update dynamic header image'
+          file_pattern: 'assets/dynamic-header.jpg'
