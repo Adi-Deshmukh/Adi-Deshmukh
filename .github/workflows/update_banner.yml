@@ -26,8 +26,8 @@ jobs:
           
           # Check if it's daytime (6 AM to 6 PM) or nighttime
           if (( current_hour >= 6 && current_hour < 18 )); then
-            echo "It's daytime. Using day.jpg."
-            cp assets/day.jpg assets/dynamic-header.jpg
+            echo "It's daytime. Using day.gif."
+            cp assets/day.gig assets/dynamic-header.jpg
           else
             echo "It's nighttime. Using night.jpg."
             cp assets/night.jpg assets/dynamic-header.jpg
