@@ -1,40 +1,53 @@
 name: Update Dynamic Header Banner
 
 on:
-  # Runs every hour
+  # This runs the job every hour, at the start of the hour.
   schedule:
     - cron: '0 * * * *'
-  # Allows you to run this workflow manually from the Actions tab
+  
+  # This allows you to run the workflow manually from the Actions tab.
   workflow_dispatch:
 
 jobs:
   update-banner:
+    # Use the latest version of Ubuntu as the runner.
     runs-on: ubuntu-latest
+    
+    # BEST PRACTICE: Explicitly set the permissions required by the job.
+    # The 'contents: write' permission allows the action to commit files back to your repository.
+    permissions:
+      contents: write
+
     steps:
+      # Step 1: Check out a copy of your repository.
       - name: Check out repository
         uses: actions/checkout@v4
 
+      # Step 2: Run a script to determine the time and copy the correct image.
       - name: Update header image based on time
         run: |
-          # Set timezone to India Standard Time
+          # Set the timezone to India Standard Time.
           export TZ="Asia/Kolkata"
           
-          # Get the current hour in 24-hour format
+          # Get the current hour (0-23).
           current_hour=$(date +%H)
-          
           echo "Current hour in IST is $current_hour"
           
-          # Check if it's daytime (6 AM to 6 PM) or nighttime
+          # Check if the hour is between 6 AM (6) and 6 PM (17).
           if (( current_hour >= 6 && current_hour < 18 )); then
-            echo "It's daytime. Using day.gif."
-            cp assets/day.gig assets/dynamic-header.jpg
+            echo "It's daytime. Using day.jpg."
+            cp assets/day.jpg assets/dynamic-header.jpg
           else
             echo "It's nighttime. Using night.jpg."
             cp assets/night.jpg assets/dynamic-header.jpg
           fi
 
+      # Step 3: Use a pre-built action to automatically commit the changed file.
       - name: Commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
+          # The commit message that will appear in your repository history.
           commit_message: 'CI: Update dynamic header image'
+          
+          # The specific file that this action should look for changes in.
           file_pattern: 'assets/dynamic-header.jpg'
