@@ -21,7 +21,7 @@
 - 🔭 I’m currently exploring the realms of **LLMs and ML **.
 - 👯 I’m looking to collaborate on **open-source AI projects** or **automation scripts**.
 - 💬 Ask me about **Data Science, Python, or Web Dev**.
-- 📫 How to reach me: **[LinkedIn](www.linkedin.com/in/aditya-deshmukh-2587ab1ba)**
+- 📫 How to reach me: **[LinkedIn](https://www.linkedin.com/in/aditya-deshmukh-2587ab1ba)**
 - 😄 Fun fact: I believe a architecture is as important as good design.
 
 <br>
@@ -29,7 +29,7 @@
 ### Connect with Me
 
 <p align="left">
-  <a href="www.linkedin.com/in/aditya-deshmukh-2587ab1ba" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="https://www.linkedin.com/in/aditya-deshmukh-2587ab1ba" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   </p>
 
 </td>
