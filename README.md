@@ -80,7 +80,7 @@ hobbies: ["Problem Solving", "Technology", "Innovation"]
 ### 🌐 **Web Development**
 
 
-<img src="https://user-images.githubusercontent.com/74038190/212257463-4d082cb4-7483-4eaf-bc25-6dde2628aabd.gif" width="100">
+<img SRC="https://user-images.githubusercontent.com/74038190/212257463-4d082cb4-7483-4eaf-bc25-6dde2628aabd.gif" width="100">
 
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
 [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
@@ -132,7 +132,7 @@ hobbies: ["Problem Solving", "Technology", "Innovation"]
 💻  I Spent My Time On
 
 Python       █████████████████▓░░░   68.2%
-Analytu=ics  ████████▓░░░░░░░░░░░░   15.4%
+Analytics    ████████▓░░░░░░░░░░░░   15.4%
 SQL          ██████▓░░░░░░░░░░░░░░   10.1%
 Javascript   ████▓░░░░░░░░░░░░░░░░    4.8%
 YAML         ██▓░░░░░░░░░░░░░░░░░░    1.5%
